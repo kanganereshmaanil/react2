@@ -1,0 +1,67 @@
+.imputTagStyles{
+    height: 40px;
+    width: 300px;
+    background-color: rgba(218, 217, 222, 0.212);
+    border-radius: 30px;
+    padding: 8px;
+    margin:   10px 20px;
+}
+.imputTagStyles:hover{
+    background-color: rgb(181, 222, 68);
+    
+}
+
+.labelForInput{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.submitagStyles{
+    height: 60px;
+    width: 250px;
+    background-color: lightyellow;
+    border-radius: 30px;
+    padding: 12px;
+    margin:   10px 20px;
+    font-size: larger;
+}
+
+.submitagStyles:hover{
+    background-color: darkred;
+}
+
+.OuterDiv{
+    background-color: rgb(106, 166, 190);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 70%;    
+    border-radius: 5px;
+    margin:5% 15%;
+}
+
+.OuterDiv:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black, -2px 0 3px black;
+}
+
+.innerElements{
+    margin: 20px;
+    background-color: darkblue;
+    height: 10vh;
+    width: 30vw;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+.innerElements:hover{
+    box-shadow: 2px 2px 3px rgb(239, 98, 122) ;
+    background-color: red;
+}
+body{
+    background: linear-gradient(purple, yellow, green, aqua, black);}
